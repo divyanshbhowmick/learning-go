@@ -1,7 +1,8 @@
-package variables
+package main
 
 import (
 	"fmt"
+	"learning-go/basic_syntax"
 	"strconv"
 )
 
@@ -56,4 +57,7 @@ func main() {
 	fmt.Println(j)
 	fmt.Println(k)
 	fmt.Println(packageLevelVariable)
+
+	message := basic_syntax.Hello("Divyansh!")
+	fmt.Println(message)
 }
